@@ -38,7 +38,8 @@ public class View extends JFrame {
 		
 	}
 	
-	public void setChannel(Enum c) {
+	public void setChannel(Channels c) {
+		type = c;
 		setContentPane(channel.get(c));
 	}
 	

@@ -12,6 +12,7 @@ import javax.swing.JFrame;
 import listeners.Movable;
 import listeners.MyMouseListener;
 import listeners.Paintable;
+import mvvm.Data;
 
 public class Shape implements Movable , Paintable{
 	
@@ -97,7 +98,7 @@ public class Shape implements Movable , Paintable{
 		
 	}
 	
-	public Data toStringForPaint() {
-		
+	public Data getDataToPaint() {
+		return null;
 	}
 }
